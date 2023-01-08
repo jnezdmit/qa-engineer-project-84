@@ -1,0 +1,60 @@
+---
+- summary: |
+    Проверка поиска товаров по ключевому слову или категории.
+  status: pass
+  
+  - summary: |
+    Проверка фильтров товаров.
+  status: pass
+  
+  - summary: |
+     Проверка возможности просмотра товаров и подробной информации о них.
+  status: pass
+  
+   - summary: |
+    Проверка добавления товара в корзину и ее просмотра.
+  status: pass
+  
+   - summary: |
+    Проверка удобства использования и оптимизации для скорости работы
+  status: pass
+  
+   - summary: |
+    Проверка безопасности сайта и защиты данных пользователя
+  status: pass
+  
+   - summary: |
+    
+  status: 
+  
+   - summary: |
+    
+  status: 
+  
+   - summary: |
+    
+  status: 
+  
+   - summary: |
+    
+  status: 
+  
+   - summary: |
+    
+  status: 
+  
+   - summary: |
+    
+  status: 
+  
+   - summary: |
+    
+  status: 
+  
+   - summary: |
+    
+  status: 
+  
+   - summary: |
+    
+  status: 
