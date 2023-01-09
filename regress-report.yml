@@ -1,0 +1,90 @@
+---
+test-cases:
+  - summary: |
+      Проверка поиска товаров по ключевому слову или категории.
+    status: fail
+    
+  test-cases:
+  - summary: |
+      Проверка фильтров товаров.
+    status: fail    
+    
+    test-cases:
+  - summary: |
+     Проверка возможности просмотра товаров и подробной информации о них.
+    status: pass
+  
+  test-cases:
+  - summary: |
+     Проверка добавления товара в корзину и ее просмотра.
+    status: pass
+    
+    test-cases:
+  - summary: |
+     Проверка удобства использования и оптимизации для скорости работы
+    status: pass
+    
+    test-cases:
+  - summary: |
+     Проверка безопасности сайта и защиты данных пользователя
+    status: pass
+    
+    test-cases:
+  - summary: |
+     Проверка мобильной версии.
+    status: pass
+    
+    test-cases:
+  - summary: |
+     Проверка кроссбраузерности.
+    status: pass
+    
+    test-cases:
+  - summary: |
+     Проверка обработки большого количества трафика
+    status: fail 
+    
+    test-cases:
+  - summary: |
+     Проверка кроссплатформенности
+    status: pass
+    
+    test-cases:
+  - summary: |
+     Проверка характеристик товара
+    status: fail
+    
+    test-cases:
+  - summary: |
+     Проверка расположения блока фильтров
+    status: pass
+    
+    test-cases:
+  - summary: |
+      Проверка изображений товаров
+    status: pass
+    
+    test-cases:
+  - summary: |
+     Проверка возможности регистрации
+    status: pass
+    
+    test-cases:
+  - summary: |
+     Проверка расположения названия сайта
+    status: pass
+    
+    bugreports:
+  - summary: |
+      При вводе ключевого слова и выбора категории некорректно отображаются товары
+    environment: |
+      Google Chrome   108.0.5359.125 (Официальная сборка) (64 бит)
+      ОС Windows 7
+    steps-to-reproduce: |
+      1. Открываем страницу с товарами
+      2. Вводим ключевое "Iphone"
+      3. Выбираем категорию "smartphones"
+    expected-result: |
+      Выводятся смартфоны с названием iPhone
+    actual-result: |
+      Выводятся не соотвествующие товары
