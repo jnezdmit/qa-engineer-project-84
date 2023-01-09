@@ -33,35 +33,28 @@
   
 - summary: |
     Проверка обработки большого количества трафика
-  status: 
-    Fail
+  status: fail
     
 - summary: |
     Проверка кроссплатформенности
-  status: 
-    Pass
+  status: pass
     
 - summary: |
     Проверка характеристик товара
-  status: 
-    fail
+  status: fail
     
 - summary: |
     Проверка расположения блока фильтров
-  status: 
-    pass
+  status: pass
     
 - summary: |
     Проверка изображений товаров
-  status: 
-    pass
+  status: pass
     
 - summary: |
     Проверка возможности регистрации
-  status: 
-    fail
+  status: fail
     
 - summary: |
     Проверка расположения названия сайта
-  status: 
-    Pass
+  status: pass
