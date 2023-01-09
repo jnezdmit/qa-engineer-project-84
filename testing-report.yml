@@ -5,7 +5,7 @@
   
   - summary: |
     Проверка фильтров товаров.
-  status: pass
+  status: fail
   
   - summary: |
      Проверка возможности просмотра товаров и подробной информации о них.
@@ -24,37 +24,38 @@
   status: pass
   
    - summary: |
-    
-  status: 
+    Проверка мобильной версии.
+  status: pass
+      
+   - summary: |
+    Проверка кроссбраузерности.
+  status: pass
   
    - summary: |
-    
+    Проверка обработки большого количества трафика
   status: 
-  
+    Fail    
    - summary: |
-    
+    Проверка кроссплатформенности
   status: 
-  
+    Pass   
    - summary: |
-    
+    Проверка характеристик товара
   status: 
-  
+    fail
    - summary: |
-    
+    Проверка расположения блока фильтров
   status: 
-  
+    pass
    - summary: |
-    
+    Проверка изображений товаров
   status: 
-  
+    pass
    - summary: |
-    
+    Проверка возможности регистрации
   status: 
-  
+    fail
    - summary: |
-    
+    Проверка расположения названия сайта
   status: 
-  
-   - summary: |
-    
-  status: 
+    Pass
