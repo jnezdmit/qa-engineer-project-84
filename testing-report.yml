@@ -3,59 +3,65 @@
     Проверка поиска товаров по ключевому слову или категории.
   status: pass
   
-  - summary: |
+- summary: |
     Проверка фильтров товаров.
   status: fail
   
-  - summary: |
+- summary: |
      Проверка возможности просмотра товаров и подробной информации о них.
   status: pass
   
-   - summary: |
+- summary: |
     Проверка добавления товара в корзину и ее просмотра.
   status: pass
   
-   - summary: |
+- summary: |
     Проверка удобства использования и оптимизации для скорости работы
   status: pass
   
-   - summary: |
+- summary: |
     Проверка безопасности сайта и защиты данных пользователя
   status: pass
   
-   - summary: |
+- summary: |
     Проверка мобильной версии.
   status: pass
       
-   - summary: |
+- summary: |
     Проверка кроссбраузерности.
   status: pass
   
-   - summary: |
+- summary: |
     Проверка обработки большого количества трафика
   status: 
-    Fail    
-   - summary: |
+    Fail
+    
+- summary: |
     Проверка кроссплатформенности
   status: 
-    Pass   
-   - summary: |
+    Pass
+    
+- summary: |
     Проверка характеристик товара
   status: 
     fail
-   - summary: |
+    
+- summary: |
     Проверка расположения блока фильтров
   status: 
     pass
-   - summary: |
+    
+- summary: |
     Проверка изображений товаров
   status: 
     pass
-   - summary: |
+    
+- summary: |
     Проверка возможности регистрации
   status: 
     fail
-   - summary: |
+    
+- summary: |
     Проверка расположения названия сайта
   status: 
     Pass
